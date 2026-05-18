@@ -2,7 +2,8 @@
 
 set -ouex pipefail
 
-dnf5 install -y sddm
+dnf5 -y copr enable yalter/niri
+dnf5 install -y sddm niri
 
 cat > /usr/share/ublue-os/image-info.json <<EOF
 {
