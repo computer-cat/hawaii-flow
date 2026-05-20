@@ -40,9 +40,6 @@ sed -i "s/#CursorTheme=/CursorTheme=aero-drop/g" /etc/sddm.conf
 
 dnf autoremove -y
 
-git clone --depth 1 https://github.com/angelbruni/Geckium.git /tmp/geckium
-cd /tmp/geckium
-cp "tmp/geckium/Firefox Folder" /usr/lib/firefox
 
 systemctl disable plasmalogin.service
 systemctl enable sddm.service
