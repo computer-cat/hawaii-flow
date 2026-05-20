@@ -42,7 +42,7 @@ dnf autoremove -y
 
 git clone --depth 1 https://github.com/angelbruni/Geckium.git /tmp/geckium
 cd /tmp/geckium
-cp "/Firefox Folder" /usr/lib/firefox
+cp "tmp/geckium/Firefox Folder" /usr/lib/firefox
 
 systemctl disable plasmalogin.service
 systemctl enable sddm.service
