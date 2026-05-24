@@ -3,8 +3,8 @@
 set -ouex pipefail
 
 
-IMAGE_NAME="plasmosis"
-IMAGE_PRETTY_NAME="Neoplasmosis"
+IMAGE_NAME="zirconium-z13"
+IMAGE_PRETTY_NAME="Zirconium"
 VERSION_ID=$(grep -Po '(?<=^VERSION_ID=).*' /usr/lib/os-release | tr -d '"')
 HOME_URL="https://github.com/Sylvie00/plasmosis"
 
