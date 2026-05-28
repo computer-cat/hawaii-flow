@@ -4,7 +4,7 @@ COPY build_files /
 COPY system_files /sys
 
 # Base Image
-FROM ghcr.io/zirconium-dev/zirconium-hawaii-jackrabbit:stable.202605262156
+FROM ghcr.io/zirconium-dev/zirconium-hawaii-jackrabbit:stable
 
 RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=cache,dst=/var/cache \
